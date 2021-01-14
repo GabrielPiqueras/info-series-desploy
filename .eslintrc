@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "plugin:vue/essential",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-new": 0,
+    "no-var": 0,
+    "quote-props": 0,
+    "comma-dangle": 0,
+    "no-unused-vars": 0
+  },
+  "plugins": [
+    "html"
+  ],
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  }
+}
